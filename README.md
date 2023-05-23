@@ -40,7 +40,8 @@ Configure your groups as such. Just rename the "Custom Spec Map" group to "car_s
 
 [I do not automatically lowercase these. I will look into that]
 
-*Setting the Group to Red will ignore it from the script!*
+*Setting the Group to Red will exclude it from the script!*
+
 ![image](https://github.com/lithiumfox/iRacing-PS-Scripts/assets/4545555/65baa6f7-2dd4-471f-bcb3-18a3083c1f34)
 
 
