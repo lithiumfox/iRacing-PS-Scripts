@@ -2,10 +2,14 @@
 A series of scripts to help automate the process of painting cars in iRacing
 
 # Installation
-Place one or both of these wherever you want your Photoshop Scripts to be. Either open the script thorugh the script menu or use the Script Manager to add this to an event or keybind.
+There are two scripts provided.
 
-*iRSaveTGA-ASK* will open a folder to ask where you want to save it. -Recommended for Cloud Documents
-*irSaveTGA-Auto* will save wherever your PSD file is saved.
+*iRSaveTGA-ASK* will open a folder explorer to ask where you want to save it. -Recommended for Cloud Documents
+*irSaveTGA-Auto* will save wherever your PSD file is saved. -Recommended for local files
+
+To use this script, put the file wherever you would like to save your Photoshop Scripts. Then, either use the script through Scripts -> Browse or add it to the Script Events Manager to activate on Save Document
+![image](https://github.com/lithiumfox/iRacing-PS-Scripts/assets/4545555/14ecbed0-9377-4ee1-a282-2b861e4e6977)
+
 
 # Use
 This is to help automate the process of saving TGA files when saving your PSD file. Personally the main goal is to have this activate anytime you save, so it'll automatically update all the files. 
