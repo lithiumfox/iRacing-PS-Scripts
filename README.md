@@ -43,7 +43,7 @@ Configure your groups as such. Just rename the "Custom Spec Map" group to "car_s
 Use the Script Manager to automatically save TGA files whenever you save!
 ![image](https://github.com/lithiumfox/iRacing-PS-Scripts/assets/4545555/4cb78477-a692-400c-a362-f6468c6b1305)
 
-
+* Please note that this happens EVERYTIME you save. Even when you're closing Photoshop... lol. Preferably a custom keybind would be better for this.
 
 
 # Changes I've made:
