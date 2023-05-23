@@ -2,7 +2,7 @@
 A series of scripts to help automate the process of painting cars in iRacing
 
 # Installation
-There are two scripts provided.
+There are two scripts provided. Typically yoou would only want to use one of the scripts, however clever use of keybind shortcuts you could probably use both (I haven't tried!)
 
 *iRSaveTGA-ASK* will open a folder explorer to ask where you want to save it. -Recommended for Cloud Documents
 
