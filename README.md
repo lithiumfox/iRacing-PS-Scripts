@@ -70,3 +70,4 @@ Use the Script Manager to automatically save TGA files whenever you save!
 - Figure out how the decal layer actually works.
 - Add script to automate process of spec mapping. Eg: Use specific groups to automatically configure "sponsor" layers to allow for moving sponsors on the base layer to automatically be adjusted on the spec layer.
 - Determine if there's bugs with what I have already.
+- Make a proper plugin with GUI
