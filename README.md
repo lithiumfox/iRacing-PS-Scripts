@@ -8,6 +8,7 @@ There are two scripts provided.
 *irSaveTGA-Auto* will save wherever your PSD file is saved. -Recommended for local files
 
 To use this script, put the file wherever you would like to save your Photoshop Scripts. Then, either use the script through Scripts -> Browse or add it to the Script Events Manager to activate on Save Document
+
 ![image](https://github.com/lithiumfox/iRacing-PS-Scripts/assets/4545555/14ecbed0-9377-4ee1-a282-2b861e4e6977)
 
 
