@@ -68,10 +68,6 @@ function SaveTGA(targaFile) {
     app.activeDocument.saveAs(targaFile, targaSaveOptions, true);
 }
 
-function initVisible() {
-
-}
-
 // Return active layer color (found somewere in the internets)
 function getLayerColour(){
     //Colours returned ....
