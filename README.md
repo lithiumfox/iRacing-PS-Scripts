@@ -59,8 +59,8 @@ Use the Script Manager to automatically save TGA files whenever you save!
 
 # Changes I've made:
 
-- Stores your group visibility settings
-- Hide all groups automatically before running and current target group after it's processed.
+- Stores your group visibility settings [Original script would disable all groups]
+- Hide all groups automatically before running and current target group after it's processed. [Original Script made you do this manually for it to save the TGA correctly]
 - Restores state of your groups after running.
 - If decal or spec layer groups are named, they will be saved as 32-bit TGA
 - Otherwise saves at 24-bit tga
