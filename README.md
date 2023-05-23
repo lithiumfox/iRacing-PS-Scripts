@@ -4,6 +4,9 @@ A series of scripts to help automate the process of painting cars in iRacing
 # Installation
 Place one or both of these wherever you want your Photoshop Scripts to be. Either open the script thorugh the script menu or use the Script Manager to add this to an event or keybind.
 
+*iRSaveTGA-ASK* will open a folder to ask where you want to save it. -Recommended for Cloud Documents
+*irSaveTGA-Auto* will save wherever your PSD file is saved.
+
 # Use
 This is to help automate the process of saving TGA files when saving your PSD file. Personally the main goal is to have this activate anytime you save, so it'll automatically update all the files. 
 
@@ -18,6 +21,29 @@ You can exclude group from export by setting group colour to red.
 Export Selected Groups exports only groups which have been colored in yellow.
 
 The visible layer which hadn't been put into any of the groups is exported to all files.
+
+--------
+# iRacing Specific Use
+![image](https://github.com/lithiumfox/iRacing-PS-Scripts/assets/4545555/b5da614f-da84-405d-99f9-065e561c1c45)
+Configure your groups as such. Just rename the "Custom Spec Map" group to "car_spec_id#" and "Paintable Area" to "car_id#". The formats and everything else is taken care of automatically based on these names. The following group names would be valid for iRacing. Replace ##### with your iRacing ID number:
+
+- suit_#####
+- helmet_#####
+- car_#####
+- car_num_#####
+- car_spec_##### (Will save as 32-bit)
+- car_team_#####
+- car_num_team_#####
+- car_spec_team_##### (Will save as 32-bit)
+- car_decal_##### (Will Save as 32-Bit) [[You will still need to create an alpha channel layer for this to function correctly!](https://support.iracing.com/support/solutions/articles/31000133480-how-do-i-custom-paint-my-iracing-cars-#:~:text=add%20a%2032%2Dbit%20TGA%20file%20with%20an%20alpha%20channel)]
+
+[I do not automatically lowercase these. I will look into that]
+
+Use the Script Manager to automatically save TGA files whenever you save!
+![image](https://github.com/lithiumfox/iRacing-PS-Scripts/assets/4545555/4cb78477-a692-400c-a362-f6468c6b1305)
+
+
+
 
 # Changes I've made:
 
