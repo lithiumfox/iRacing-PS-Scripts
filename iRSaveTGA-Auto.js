@@ -60,10 +60,8 @@ function SaveTGA(targaFile) {
     targaSaveOptions = new TargaSaveOptions();
     if (groupName.match(/^.*spec.*$/) || groupName.match(/^.*decal.*$/)) {
     targaSaveOptions.resolution = TargaBitsPerPixels.THIRTYTWO;
-    alert("Saving " + groupName +".tga as 32-bit TGA");
     } else {
     targaSaveOptions.resolution = TargaBitsPerPixels.TWENTYFOUR; 
-    alert("Saving " + groupName +".tga as 24-bit TGA");
     }
     targaSaveOptions.alphaChannels = true;
     targaSaveOptions.rleCompression = true;

@@ -56,9 +56,9 @@ if (outputFolder != null) {
 }
 
 
-function SaveTGA(targaFile) {  
+function SaveTGA(targaFile) {     
     targaSaveOptions = new TargaSaveOptions();
-    if (groupName.match(/^.*spec.*$/)) {
+    if (groupName.match(/^.*spec.*$/) || groupName.match(/^.*decal.*$/)) {
     targaSaveOptions.resolution = TargaBitsPerPixels.THIRTYTWO;
     } else {
     targaSaveOptions.resolution = TargaBitsPerPixels.TWENTYFOUR; 
