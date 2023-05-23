@@ -25,6 +25,7 @@ The visible layer which hadn't been put into any of the groups is exported to al
 --------
 # iRacing Specific Use
 ![image](https://github.com/lithiumfox/iRacing-PS-Scripts/assets/4545555/b5da614f-da84-405d-99f9-065e561c1c45)
+
 Configure your groups as such. Just rename the "Custom Spec Map" group to "car_spec_id#" and "Paintable Area" to "car_id#". The formats and everything else is taken care of automatically based on these names. The following group names would be valid for iRacing. Replace ##### with your iRacing ID number:
 
 - suit_#####
