@@ -58,12 +58,13 @@ if (outputFolder != null) {
 
 function SaveTGA(targaFile) {     
     targaSaveOptions = new TargaSaveOptions();
-    if (groupName.match(/^.*spec.*$/) || groupName.match(/^.*decal.*$/)) {
+    if (getLayerColour() == "violet" || groupName.match(/^.*decal.*$/)) {
     targaSaveOptions.resolution = TargaBitsPerPixels.THIRTYTWO;
-    } else {
-    targaSaveOptions.resolution = TargaBitsPerPixels.TWENTYFOUR; 
-    }
     targaSaveOptions.alphaChannels = true;
+    } else {
+    targaSaveOptions.resolution = TargaBitsPerPixels.TWENTYFOUR;
+    targaSaveOptions.alphaChannels = false;
+    }
     targaSaveOptions.rleCompression = true;
     app.activeDocument.saveAs(targaFile, targaSaveOptions, true);
 }
