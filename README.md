@@ -24,6 +24,8 @@ If group needs to be shared between all exported pages, place "#" sign in it nam
 
 You can exclude group from export by setting group colour to red.
 
+You can force a file to save as a 32-bit w/ Alpha Channel by setting it's group color to VIOLET. (decal layers do this by default)
+
 Export Selected Groups exports only groups which have been colored in yellow.
 
 The visible layer which hadn't been put into any of the groups is exported to all files.
@@ -38,10 +40,10 @@ Configure your groups as such. Just rename the "Custom Spec Map" group to "car_s
 - helmet_#####
 - car_#####
 - car_num_#####
-- car_spec_##### (Will save as 32-bit)
+- car_spec_#####
 - car_team_#####
 - car_num_team_#####
-- car_spec_team_##### (Will save as 32-bit)
+- car_spec_team_#####
 - car_decal_##### (Will Save as 32-Bit) [[You will still need to create an alpha channel layer for this to function correctly!](https://support.iracing.com/support/solutions/articles/31000133480-how-do-i-custom-paint-my-iracing-cars-#:~:text=add%20a%2032%2Dbit%20TGA%20file%20with%20an%20alpha%20channel)]
 
 [I do not automatically lowercase these. I will look into that]
